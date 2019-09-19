@@ -13,6 +13,9 @@ def sort_array_desc(array)
       -1
     end
   end
+  # array.sort do | left, right|
+  #   right <=> left
+  # end
 end
 
 def sort_array_char_count(array)
@@ -23,6 +26,9 @@ def sort_array_char_count(array)
       -1
     end
   end
+  # array.sort do |left, right|
+  #   left.length <=> right.length
+  # end
 end
 
 def swap_elements(array)
@@ -31,6 +37,8 @@ def swap_elements(array)
   array[1] = third_element
   array[2] = second_element
   array
+  # array[1], array[2] = array[2], array[1]
+  # array
 end
 
 def reverse_array(array)
